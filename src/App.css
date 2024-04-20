@@ -1,0 +1,58 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+button{
+  border-radius: 8px;
+  border: 1 px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #dfdcdc;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover{
+  border-radius: #EC1276;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button.selected {
+  background-color: #EC1276;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+.btn-custom-gradient {
+  background: linear-gradient(to left, #EC1276, #F16824);
+}
+.custom-border-button{
+  border-radius: 10px;
+}
+.bold-text{
+  font-weight: bold;
+  font-size: 20px;
+}
+.focus-on-hover{
+cursor: pointer;
+}
+.calander-color{
+  color:steelblue;
+}

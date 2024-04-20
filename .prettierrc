@@ -1,0 +1,8 @@
+{
+    "trailingComma":"normal",
+    "tabWidth":4, 
+    "semi":false,
+    "singleQuote":true,
+    "brackectSpacing":true,
+    "printWidth":120
+  }
